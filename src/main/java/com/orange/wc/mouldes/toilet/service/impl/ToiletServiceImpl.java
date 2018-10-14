@@ -46,7 +46,7 @@ public class ToiletServiceImpl implements ToiletService {
     @PostConstruct
     @Override
     public List<ToiletVo> queryWCList() throws IOException {
-        ResultData resultData=new ResultData();
+       // ResultData resultData=new ResultData();
         Gson gson=new Gson();
         String json = new String(IOUtils.readFully(toiletData.getInputStream(), -1,true));
         List<ToiletVo> toiletVoList=gson.fromJson(json,new TypeToken<List<ToiletVo>>() {

@@ -1,17 +1,12 @@
 package com.orange.wc.common;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.orange.wc.mouldes.toilet.service.ToiletService;
-import com.orange.wc.mouldes.toilet.vo.ToiletVo;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.Resource;
-import org.springframework.util.CollectionUtils;
-import sun.misc.IOUtils;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+//import com.orange.wc.mouldes.toilet.service.ToiletService;
+import com.orange.wc.mouldes.toilet.vo.ToiletVo;
 
 /**
  * @Title: ToiletDataUtils
@@ -28,7 +23,7 @@ public class ToiletDataUtils {
      * 加载初始配置数据
      */
     @Autowired
-    private ToiletService toiletService;
+  //  private ToiletService toiletService;
     /**
      * 设置全局的静态集合对象，存在当前的数据
      */

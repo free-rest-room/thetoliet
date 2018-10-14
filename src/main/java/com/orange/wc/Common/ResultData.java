@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * @Title: ResultData
  * @Prject: wc
- * @Package: com.orange.wc.Common
+ * @Package: com.orange.wc.common
  * @Description: 自定义返回类型
  * @author: willinggod
  * @date: 2018/9/29 11:21
@@ -14,7 +14,12 @@ import java.util.HashMap;
  */
 public class ResultData extends HashMap<String, Object>{
 
-    public ResultData(){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public ResultData(){
         put("code",0);
         put("message", "success");
     }

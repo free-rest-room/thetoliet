@@ -15,7 +15,11 @@ import java.io.Serializable;
  * Copyright  2018 中软华腾. All rights reserved.
  */
 public class ToiletVo implements Serializable{
-    public static final Long serialVersionUID=1L;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	//public static final Long serialVersionUID=1L;
     /**
      * 序号
      */

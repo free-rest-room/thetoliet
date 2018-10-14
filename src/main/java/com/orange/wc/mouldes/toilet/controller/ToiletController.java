@@ -1,14 +1,17 @@
 package com.orange.wc.mouldes.toilet.controller;
 
+import java.io.IOException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.orange.wc.common.ResultData;
 import com.orange.wc.common.ToiletDataUtils;
 import com.orange.wc.mouldes.toilet.service.ToiletService;
-import com.orange.wc.mouldes.toilet.vo.ToiletVo;
-import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
+import io.swagger.annotations.ApiOperation;
 
 /**
  * @Title: ToiletController
@@ -34,7 +37,7 @@ public class ToiletController {
     @ApiOperation("查询所有蹲位")
     @GetMapping("/queryToiletList")
     public ResultData queryToiletList() throws IOException {
-        //todo  之后需要考虑根据位置进行定位，给出附近的厕所信息
+        //TODO  之后需要考虑根据位置进行定位，给出附近的厕所信息
         ResultData resultData=new ResultData();
         resultData.put("data",ToiletDataUtils.getAllToiletList());
         return resultData;
