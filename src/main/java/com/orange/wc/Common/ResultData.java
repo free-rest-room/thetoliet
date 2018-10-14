@@ -1,4 +1,4 @@
-package com.orange.wc.Common;
+package com.orange.wc.common;
 
 import java.util.HashMap;
 

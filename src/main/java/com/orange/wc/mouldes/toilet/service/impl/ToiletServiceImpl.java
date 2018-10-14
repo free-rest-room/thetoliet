@@ -2,8 +2,8 @@ package com.orange.wc.mouldes.toilet.service.impl;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.orange.wc.Common.ResultData;
-import com.orange.wc.Common.ToiletDataUtils;
+import com.orange.wc.common.ResultData;
+import com.orange.wc.common.ToiletDataUtils;
 import com.orange.wc.mouldes.toilet.service.ToiletService;
 import com.orange.wc.mouldes.toilet.vo.ToiletVo;
 import org.springframework.beans.factory.annotation.Value;

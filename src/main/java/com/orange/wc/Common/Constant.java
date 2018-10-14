@@ -1,9 +1,9 @@
-package com.orange.wc.Common;
+package com.orange.wc.common;
 
 /**
  * @Title: Constant
  * @Prject: wc
- * @Package: com.orange.wc.Common
+ * @Package: com.orange.wc.common
  * @Description:常量类
  * @author: willinggod
  * @date: 2018/9/29 14:03

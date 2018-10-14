@@ -1,6 +1,6 @@
 package com.orange.wc.mouldes.toilet.service;
 
-import com.orange.wc.Common.ResultData;
+import com.orange.wc.common.ResultData;
 import com.orange.wc.mouldes.toilet.vo.ToiletVo;
 
 import java.io.IOException;

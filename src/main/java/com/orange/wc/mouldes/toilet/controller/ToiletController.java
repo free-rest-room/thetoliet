@@ -1,7 +1,7 @@
 package com.orange.wc.mouldes.toilet.controller;
 
-import com.orange.wc.Common.ResultData;
-import com.orange.wc.Common.ToiletDataUtils;
+import com.orange.wc.common.ResultData;
+import com.orange.wc.common.ToiletDataUtils;
 import com.orange.wc.mouldes.toilet.service.ToiletService;
 import com.orange.wc.mouldes.toilet.vo.ToiletVo;
 import io.swagger.annotations.ApiOperation;
